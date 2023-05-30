@@ -13,7 +13,7 @@ function Header() {
 
       </div>
       <div 
-        className='block md:hidden bg-cover bg-no-repeat bg-center w-full min-h-[68vh] aspect-[9/13] relative '
+        className='block md:hidden bg-cover bg-no-repeat bg-center w-full  aspect-[9/13] relative '
         style={{backgroundImage: `url(${process.env.PUBLIC_URL +'/images/header_bg_mb.png'})`}}
       >
           <div className=' absolute bottom-10 left-1/2 -translate-x-1/2' >
