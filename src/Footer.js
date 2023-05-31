@@ -129,9 +129,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='w-1/2 mx-auto my-10 md:my-20'>
-        <img src={process.env.PUBLIC_URL+'/images/footer_credit.png'} alt="" />
-      </div>
+
       {/* Modal */}
       {formStatus &&
        <Modal>
