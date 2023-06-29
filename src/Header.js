@@ -16,7 +16,7 @@ function Header() {
         className='block md:hidden bg-cover bg-no-repeat bg-center w-full  aspect-[9/13] relative '
         style={{backgroundImage: `url(${process.env.PUBLIC_URL +'/images/header_bg_mb.png'})`}}
       >
-          <div className=' absolute bottom-10 left-1/2 -translate-x-1/2' >
+          <div className=' absolute bottom-10 left-1/2 -translate-x-1/2 w-4/5' >
             <img src={process.env.PUBLIC_URL+'/images/header_title_mb.png'} alt="" className='w-full' data-aos="fade-up" data-aos-duration="1500" />
           </div>
           <div className=' absolute top-24 right-5 w-1/2' >
