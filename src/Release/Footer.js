@@ -86,7 +86,7 @@ function Footer() {
               </div>
               <div className='w-full my-3  '>
                 <input type="mail" className="block  bg-white   w-full  rounded-full
-                    px-3 py-2 " placeholder="電子信箱"   {...register("mail", { required: true})}/>
+                    px-3 py-2 " placeholder="電子信箱"   {...register("mail", { required: false})}/>
               </div>
               <div className='flex gap-3'>
                 <div className='w-full  '>
